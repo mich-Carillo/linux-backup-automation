@@ -6,8 +6,8 @@ if [ -f "$CONFIG_FILE" ]; then
   source "$CONFIG_FILE"
 else
   echo "Configuration file not found, using default values."
-  SOURCE_DIR=/home/mich/my_projects
-  BACKUP_DIR=/home/mich/projects_backup
+  SOURCE_DIR="/home/mich/my_projects"
+  BACKUP_DIR="/home/mich/projects_backup"
   RETENTION_DAYS=7
 fi
 
